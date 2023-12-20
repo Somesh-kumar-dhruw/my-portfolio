@@ -5,6 +5,7 @@
   }
   .about-containers {
     flex-wrap: wrap;
+    justify-content: center;
   }
   #contact,
   #projects {
@@ -48,16 +49,20 @@
 }
 
 @media screen and (max-width: 600px) {
-  body{
+  body {
     padding: 10px;
   }
-  #contact,
-  footer {
-    height: 40vh;
+  #contact {
   }
   #profile {
     height: 83vh;
     margin-bottom: 0;
+  }
+  footer {
+    height: 40vh;
+  }
+  .project-img {
+    height: 20rem;
   }
   article {
     font-size: 1rem;
@@ -71,14 +76,13 @@
     max-width: none;
   }
 
-
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
   }
 
-  .about-containers{
+  .about-containers {
     justify-content: center;
   }
   .contact-info-container {
